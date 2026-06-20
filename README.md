@@ -171,4 +171,4 @@ If you found this repository useful, feel free to:
 
 ---
 
-### #SQL #PostgreSQL #DataAnalytics #LearningInPublic #100DaysOfCode #DataScience #DatabaseManagementsOfCode #DataScience #DatabaseManagement
+### #SQL #PostgreSQL #DataAnalytics #LearningInPublic #100DaysOfCode #DataScience #DatabaseManagementsOfCode #DataScience #DatabaseManagement #DataScience
