@@ -161,5 +161,3 @@ Applied Skills:
 - SQL-based analysis
 
 ---
-
-
