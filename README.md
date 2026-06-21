@@ -1,174 +1,165 @@
 # 🚀 14 Days SQL Intermediate Challenge
 
-Welcome to my **14 Days SQL Intermediate Challenge** repository!
-
-After completing SQL fundamentals, I challenged myself to strengthen my intermediate SQL skills by solving real-world business problems and writing optimized queries daily for 14 days.
-
-This challenge helped me gain hands-on experience with advanced SQL concepts commonly used by Data Analysts, Business Analysts, and Data Engineers.
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-SQL-blue)
+![SQL](https://img.shields.io/badge/Language-SQL-orange)
+![Data Analytics](https://img.shields.io/badge/Focus-Data%20Analytics-green)
+![Challenge](https://img.shields.io/badge/Challenge-14%20Days-purple)
 
 ---
 
-## 🎯 Challenge Goals
+## 📌 Project Overview
 
-- Improve SQL problem-solving skills
-- Learn advanced query techniques
-- Practice writing efficient SQL queries
-- Work with real-world datasets
+Welcome to my **14 Days SQL Intermediate Challenge** repository!
+
+After completing SQL fundamentals, I challenged myself to improve my **intermediate SQL skills** by solving real-world business problems and writing analytical queries daily for 14 days.
+
+This challenge helped me gain practical experience with advanced SQL concepts used by **Data Analysts, Business Analysts, and Data Engineers**.
+
+---
+
+# 🎯 Challenge Objectives
+
+- Strengthen SQL problem-solving skills
+- Learn advanced SQL techniques
+- Practice writing optimized queries
+- Solve real-world analytical problems
+- Improve database querying skills
 - Build a strong foundation for Data Analytics
 
 ---
 
-## 🛠️ Topics Covered
+# 🛠️ Topics Covered
 
-### Day 1: Joins Deep Dive
+## Day 1: Joins Deep Dive
+
+Concepts:
 - INNER JOIN
 - LEFT JOIN
 - RIGHT JOIN
 - FULL OUTER JOIN
 - SELF JOIN
 
-### Day 2: Advanced Aggregations
+---
+
+## Day 2: Advanced Aggregations
+
+Concepts:
 - GROUP BY
 - HAVING
-- Multi-column aggregations
+- Multiple aggregations
 - Business KPI calculations
 
-### Day 3: CASE Statements
+---
+
+## Day 3: CASE Statements
+
+Concepts:
 - Conditional logic
 - Data categorization
 - Customer segmentation
 
-### Day 4: Subqueries
+---
+
+## Day 4: Subqueries
+
+Concepts:
 - Single-row subqueries
 - Multi-row subqueries
 - Correlated subqueries
 
-### Day 5: Common Table Expressions (CTEs)
+---
+
+## Day 5: Common Table Expressions (CTEs)
+
+Concepts:
 - Basic CTEs
 - Multiple CTEs
-- Query readability improvements
+- Query readability improvement
 
-### Day 6: Set Operations
+---
+
+## Day 6: Set Operations
+
+Concepts:
 - UNION
 - UNION ALL
 - INTERSECT
 - EXCEPT
 
-### Day 7: Views
+---
+
+## Day 7: Views
+
+Concepts:
 - Creating views
 - Updating views
-- Use cases in analytics
+- Analytical use cases
 
-### Day 8: Window Functions - Part 1
+---
+
+## Day 8: Window Functions - Part 1
+
+Concepts:
 - ROW_NUMBER()
 - RANK()
 - DENSE_RANK()
 
-### Day 9: Window Functions - Part 2
+---
+
+## Day 9: Window Functions - Part 2
+
+Concepts:
 - PARTITION BY
 - ORDER BY
 - Running totals
 
-### Day 10: Lead & Lag Functions
+---
+
+## Day 10: Lead & Lag Functions
+
+Concepts:
 - LEAD()
 - LAG()
 - Trend analysis
 
-### Day 11: Advanced Window Functions
+---
+
+## Day 11: Advanced Window Functions
+
+Concepts:
 - FIRST_VALUE()
 - LAST_VALUE()
 - NTILE()
 
-### Day 12: Data Analysis Queries
-- Top customers
+---
+
+## Day 12: Data Analysis Queries
+
+Business Analysis:
+- Customer analysis
 - Revenue analysis
 - Product performance analysis
+- Ranking problems
 
-### Day 13: Query Optimization
+---
+
+## Day 13: Query Optimization
+
+Concepts:
 - Indexes
 - Execution plans
-- Performance tuning basics
+- Performance improvement basics
 
-### Day 14: Mini SQL Project
+---
+
+## Day 14: Mini SQL Project
+
+Applied Skills:
 - Business problem solving
-- Dashboard-style analysis
-- Insights generation
+- Analytical reporting
+- Insight generation
+- SQL-based analysis
 
 ---
 
-## 📂 Repository Structure
-
-```text
-14-Days-SQL-Intermediate-Challenge/
-│
-├── Day-01-Joins/
-├── Day-02-Aggregations/
-├── Day-03-Case-Statements/
-├── Day-04-Subqueries/
-├── Day-05-CTEs/
-├── Day-06-Set-Operations/
-├── Day-07-Views/
-├── Day-08-Window-Functions-1/
-├── Day-09-Window-Functions-2/
-├── Day-10-Lead-Lag/
-├── Day-11-Advanced-Window-Functions/
-├── Day-12-Data-Analysis/
-├── Day-13-Query-Optimization/
-└── Day-14-Mini-Project/
-```
-
----
-
-## 💡 Key Learnings
-
-Throughout this challenge, I learned:
-
-- How to solve analytical business questions using SQL
-- Advanced query writing techniques
-- Data ranking and trend analysis
-- Query optimization fundamentals
-- Best practices for writing clean and maintainable SQL
-
----
-
-## 📊 Skills Developed
-
-- SQL
-- PostgreSQL
-- Data Analysis
-- Data Cleaning
-- Business Analytics
-- Query Optimization
-- Database Management
-- Problem Solving
-
----
-
-## 🎓 About Me
-
-I am a Computer Science student passionate about Data Analytics and Data Science.
-
-Currently building projects and strengthening my skills in:
-
-- SQL
-- Excel
-- Python
-- Data Visualization
-- Statistics
-- Machine Learning
-
----
-
-## ⭐ Connect With Me
-
-If you found this repository useful, feel free to:
-
-⭐ Star the repository
-
-🍴 Fork the repository
-
-🤝 Connect with me on LinkedIn
-
----
-
-### #SQL #PostgreSQL #DataAnalytics #LearningInPublic #100DaysOfCode #DataScience #DatabaseManagementsOfCode #DataScience #DatabaseManagement #DataScience
+# 📂 Repository Structure
