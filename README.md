@@ -1,10 +1,5 @@
 # 🚀 14 Days SQL Intermediate Challenge
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-SQL-blue)
-![SQL](https://img.shields.io/badge/Language-SQL-orange)
-![Data Analytics](https://img.shields.io/badge/Focus-Data%20Analytics-green)
-![Challenge](https://img.shields.io/badge/Challenge-14%20Days-purple)
-
 ---
 
 ## 📌 Project Overview
@@ -21,8 +16,8 @@ This challenge helped me gain practical experience with advanced SQL concepts us
 
 - Strengthen SQL problem-solving skills
 - Learn advanced SQL techniques
-- Practice writing optimized queries
-- Solve real-world analytical problems
+- Practice writing optimized analytical queries
+- Solve real-world business problems
 - Improve database querying skills
 - Build a strong foundation for Data Analytics
 
@@ -33,6 +28,7 @@ This challenge helped me gain practical experience with advanced SQL concepts us
 ## Day 1: Joins Deep Dive
 
 Concepts:
+
 - INNER JOIN
 - LEFT JOIN
 - RIGHT JOIN
@@ -44,6 +40,7 @@ Concepts:
 ## Day 2: Advanced Aggregations
 
 Concepts:
+
 - GROUP BY
 - HAVING
 - Multiple aggregations
@@ -54,15 +51,18 @@ Concepts:
 ## Day 3: CASE Statements
 
 Concepts:
+
 - Conditional logic
 - Data categorization
 - Customer segmentation
+- Business rules implementation
 
 ---
 
 ## Day 4: Subqueries
 
 Concepts:
+
 - Single-row subqueries
 - Multi-row subqueries
 - Correlated subqueries
@@ -72,15 +72,18 @@ Concepts:
 ## Day 5: Common Table Expressions (CTEs)
 
 Concepts:
+
 - Basic CTEs
 - Multiple CTEs
 - Query readability improvement
+- Breaking complex queries into steps
 
 ---
 
 ## Day 6: Set Operations
 
 Concepts:
+
 - UNION
 - UNION ALL
 - INTERSECT
@@ -91,35 +94,52 @@ Concepts:
 ## Day 7: Views
 
 Concepts:
-- Creating views
-- Updating views
-- Analytical use cases
+
+- Creating SQL Views
+- Reusable queries
+- Analytical reporting views
+- Business reporting use cases
 
 ---
 
 ## Day 8: Window Functions - Part 1
 
 Concepts:
+
 - ROW_NUMBER()
 - RANK()
 - DENSE_RANK()
+
+Use Cases:
+
+- Ranking analysis
+- Finding top records
+- Ordered calculations
 
 ---
 
 ## Day 9: Window Functions - Part 2
 
 Concepts:
+
 - PARTITION BY
 - ORDER BY
 - Running totals
+- Group-based calculations
 
 ---
 
 ## Day 10: Lead & Lag Functions
 
 Concepts:
+
 - LEAD()
 - LAG()
+
+Use Cases:
+
+- Previous order analysis
+- Next purchase analysis
 - Trend analysis
 
 ---
@@ -127,18 +147,27 @@ Concepts:
 ## Day 11: Advanced Window Functions
 
 Concepts:
+
 - FIRST_VALUE()
 - LAST_VALUE()
 - NTILE()
+
+Use Cases:
+
+- Customer segmentation
+- Percentile analysis
+- Ranking customers into groups
 
 ---
 
 ## Day 12: Data Analysis Queries
 
 Business Analysis:
+
 - Customer analysis
 - Revenue analysis
 - Product performance analysis
+- Restaurant performance analysis
 - Ranking problems
 
 ---
@@ -146,18 +175,42 @@ Business Analysis:
 ## Day 13: Query Optimization
 
 Concepts:
+
 - Indexes
 - Execution plans
-- Performance improvement basics
+- Query performance improvement
+- Writing efficient SQL queries
 
 ---
 
-## Day 14: Mini SQL Project
+## Day 14: Temporary Tables & Business Analysis
 
-Applied Skills:
-- Business problem solving
-- Analytical reporting
-- Insight generation
-- SQL-based analysis
+Concepts:
+
+- CREATE TEMP TABLE
+- Temporary data storage
+- Intermediate calculations
+- Multi-step analysis workflows
+
+Business Problems Solved:
+
+- Customer order count analysis
+- Restaurant revenue analysis
+- High-value order identification
+- Popular item analysis
+- Big cart order analysis
+
+---
+
+# 📊 Skills Practiced
+
+- SQL
+- PostgreSQL
+- Data Analysis
+- Business Intelligence
+- Database Management
+- Query Optimization
+- Analytical Thinking
+- Problem Solving
 
 ---
