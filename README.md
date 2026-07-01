@@ -1,221 +1,257 @@
-🚀 14 Days SQL Intermediate Challenge
+# 🚀 14 Days SQL Intermediate Challenge
 
-📖 About the Challenge
+## 📖 About the Challenge
 
 Welcome to my 14 Days SQL Intermediate Challenge repository!
 
-After building a solid foundation in SQL fundamentals, I committed to a 14-day learning challenge to strengthen my intermediate SQL skills through hands-on practice. Each day focuses on solving real-world business problems for a food-delivery style platform (customers, restaurants, menu items, and orders) using analytical SQL queries — the kind of techniques commonly used by Data Analysts, Business Analysts, and Data Engineers.
+After building a solid foundation in SQL fundamentals, I committed to a 14-day learning challenge to strengthen my intermediate SQL skills through hands-on practice. Each day focused on solving real-world business problems using analytical SQL queries, helping me gain practical experience with techniques commonly used by Data Analysts, Business Analysts, and Data Engineers.
 
-This challenge is designed not only to improve my SQL proficiency but also to develop a problem-solving mindset by working with realistic business scenarios and a sample dataset.
-
-📌 Progress: Days 1–7 completed and uploaded so far. Days 8–14 are still in progress and will be added as they're completed.
+This challenge was designed not only to improve my SQL proficiency but also to develop a problem-solving mindset by working with realistic business scenarios and datasets.
 
 ---
 
-🎯 Objectives
+## 🎯 Objectives
 
-Throughout this challenge, I'm focused on:
+Throughout this challenge, I focused on:
 
 - Strengthening intermediate SQL concepts through consistent daily practice.
 - Solving real-world business and analytical problems.
-- Writing clean, readable, and well-structured SQL queries.
-- Learning window functions, subqueries, views, and temporary tables in depth.
+- Writing clean, readable, and optimized SQL queries.
+- Understanding advanced SQL techniques used in industry.
+- Improving query performance and database optimization skills.
 - Building a strong foundation for Data Analytics and Business Intelligence.
 
 ---
 
-🗂️ Dataset
+## 🛠️ Topics Covered
 
-All queries run against a small relational dataset stored in the `dataset/` folder, modeling a restaurant/food-ordering platform:
+### 📅 Day 1 — SQL Joins Deep Dive
 
-| Table (as used in queries) | Source file | Key columns |
-|---|---|---|
-| `customers` | `dataset/customers.csv` | customer_id, customer_name, email, city, signup_date |
-| `restaurant` | `dataset/restaurants.csv` | restaurant_id, restaurant_name, city, registration_date |
-| `menu_item` | `dataset/menu_items.csv` | item_id, restaurant_id, item_name, price |
-| `orders` | `dataset/orders.csv` | order_id, customer_id, restaurant_id, order_date |
-| `order_details` | `dataset/order_details.csv` | order_detail_id, order_id, item_id, quantity |
+**Concepts**
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN
+- SELF JOIN
 
-All SQL is written for PostgreSQL syntax (e.g. `EXTRACT()`, `CREATE TEMP TABLE`).
-
----
-
-🛠️ Topics Covered
-
-📅 Day 1 — Joins & Aggregations ([`Day_1.sql`](Day_1.sql))
-
-Concepts
-
-- INNER JOIN across multiple tables
-- GROUP BY and HAVING
-- Aggregate functions: COUNT, AVG, SUM
-- ORDER BY + LIMIT for top-N queries
-
-Queries Solved
-
-- Top 3 most frequently ordered items
-- Customers who placed more than 3 orders
-- Average quantity per order, per restaurant
-- Customers and the restaurants they've ordered from more than once
-- Top 3 revenue-generating restaurants
+**What I Learned**
+- Combining data from multiple tables.
+- Choosing the appropriate join type for different business scenarios.
 
 ---
 
-📅 Day 2 — CASE Statements & Conditional Logic ([`Day_2.sql`](Day_2.sql))
+### 📅 Day 2 — Advanced Aggregations
 
-Concepts
+**Concepts**
+- GROUP BY
+- HAVING
+- Multiple Aggregate Functions
+- Business KPI Calculations
 
-- CASE WHEN ... THEN ... ELSE conditional logic
-- Conditional aggregation (COUNT with CASE)
-- EXTRACT(YEAR FROM ...) for date-based rules
-- Combining CASE with JOIN and GROUP BY
-
-Queries Solved
-
-- Count of high-value vs. low-value orders by price threshold
-- Categorize restaurants as "Old Partner" / "New Partner" by registration year
-- Tag menu items as "Premium", "Standard", or "Economy" by price
-- Assign customer reward tiers (Gold / Silver / Bronze) based on order count
-- Classify customers as "Active", "Moderate", or "Inactive" by signup year
+**What I Learned**
+- Summarizing large datasets.
+- Creating meaningful business metrics and performance reports.
 
 ---
 
-📅 Day 3 — Subqueries ([`Day_3.sql`](Day_3.sql))
+### 📅 Day 3 — CASE Statements
 
-Concepts
+**Concepts**
+- Conditional Logic
+- Data Categorization
+- Customer Segmentation
+- Business Rule Implementation
 
-- Simple top-N filtering with ORDER BY + LIMIT
-- Nested/scalar subqueries
-- Using a subquery inside HAVING to compare against an aggregate average
-
-Queries Solved
-
-- Top 5 most expensive menu items
-- Restaurant with the highest average item price
-- Restaurants that received more orders than the average number of orders per restaurant
-- Most frequently ordered menu item overall
-- Customers with more than 2 total orders
+**What I Learned**
+- Transforming raw data into actionable business insights.
 
 ---
 
-📅 Day 4 — Window Functions: Ranking & Partitioned Aggregates ([`Day_4.sql`](Day_4.sql))
+### 📅 Day 4 — Subqueries
 
-Concepts
+**Concepts**
+- Single-row Subqueries
+- Multi-row Subqueries
+- Correlated Subqueries
 
-- ROW_NUMBER() OVER (...)
-- PARTITION BY for per-group ranking
-- Window aggregate functions (COUNT, AVG) that don't collapse rows
-- Wrapping a windowed query in a subquery to filter on rank
-
-Queries Solved
-
-- Assign a serial number to every order, ordered by date
-- Find the alphabetically first menu item per restaurant
-- Show each customer's total order count without collapsing individual order rows
-- Find the highest-priced menu item per restaurant
-- Compare each item's price to its own restaurant's average item price
+**What I Learned**
+- Breaking down complex analytical problems into manageable queries.
 
 ---
 
-📅 Day 5 — Window Functions: LAG, LEAD, NTILE & DENSE_RANK ([`Day_5.sql`](Day_5.sql))
+### 📅 Day 5 — Common Table Expressions (CTEs)
 
-Concepts
+**Concepts**
+- Basic CTEs
+- Multiple CTEs
+- Improving Query Readability
+- Modular Query Design
 
-- LAG() and LEAD() for comparing rows to previous/next rows
-- NTILE() for percentile/bucket segmentation
-- DENSE_RANK() for gap-free ranking
-- ROW_NUMBER() combined with subqueries
-
-Queries Solved
-
-- Previous order date for each customer
-- Next order date for each customer
-- Cheapest menu item per restaurant
-- Splitting customers into 5 buckets by total order count (NTILE)
-- Ranking restaurants by total revenue without gaps (DENSE_RANK)
+**What I Learned**
+- Writing cleaner, more maintainable SQL queries.
 
 ---
 
-📅 Day 6 — SQL Views for Reporting ([`Day_6.sql`](Day_6.sql))
+### 📅 Day 6 — Set Operations
 
-Concepts
+**Concepts**
+- UNION
+- UNION ALL
+- INTERSECT
+- EXCEPT
 
-- CREATE VIEW for reusable, simplified reporting queries
-- LEFT JOIN combined with views
-- Filtering with `IS NULL` to find non-matching rows
-
-Views Created
-
-- `avg_spend_per_order` — total spend per order, with customer ID
-- `restaurant_performance` — order count and total revenue per restaurant
-- `city_customer_spending` — total amount spent by customers, grouped by city
-- `top_high_value_orders` — top 5 highest-value orders
-- `customers_without_orders` — customers who have never placed an order
+**What I Learned**
+- Combining and comparing datasets efficiently.
 
 ---
 
-📅 Day 7 — Temporary Tables & Multi-Step Analysis ([`Day_7.sql`](Day_7.sql))
+### 📅 Day 7 — SQL Views
 
-Concepts
+**Concepts**
+- Creating Views
+- Reusable Queries
+- Reporting Views
+- Business Reporting
 
-- CREATE TEMP TABLE for staged, multi-step analysis
-- Building an intermediate result set, then querying/filtering it further
-- Combining temp tables with JOINs for the final report
-
-Problems Solved
-
-- Customers with more than 2 orders (via a temp table of order counts)
-- Restaurants with total revenue above ₹20,000
-- Orders with a total value above ₹1,000
-- Top 5 best-selling menu items by quantity sold
-- "Big cart" orders — orders containing 5 or more items
+**What I Learned**
+- Simplifying complex queries for recurring business reports.
 
 ---
 
-🔜 Coming Up (Days 8–14)
+### 📅 Day 8 — Window Functions (Part 1)
 
-The remaining days will continue building on these foundations — planned topics include set operations (UNION/INTERSECT/EXCEPT), more advanced window functions, query optimization, and larger multi-step business analyses. This README will be updated as each day's SQL file is added.
+**Concepts**
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
 
----
-
-💡 Skills Developed (so far)
-
-- SQL (PostgreSQL)
-- Joins & Aggregations
-- CASE Statements / Conditional Logic
-- Subqueries
-- Window Functions (ROW_NUMBER, RANK, DENSE_RANK, NTILE, LAG, LEAD)
-- Views for Reporting
-- Temporary Tables & Multi-Step Analysis
-- Business/Data Analysis & Problem Solving
+**Business Applications**
+- Ranking customers
+- Identifying top-performing products
+- Ordered analysis
 
 ---
 
-📂 Repository Structure
+### 📅 Day 9 — Window Functions (Part 2)
+
+**Concepts**
+- PARTITION BY
+- ORDER BY
+- Running Totals
+- Group-wise Calculations
+
+**Business Applications**
+- Sales trend analysis
+- Department-wise performance tracking
+- Cumulative revenue calculations
+
+---
+
+### 📅 Day 10 — LEAD() & LAG()
+
+**Concepts**
+- LEAD()
+- LAG()
+
+**Business Applications**
+- Comparing current and previous transactions
+- Customer purchase behavior analysis
+- Trend detection
+
+---
+
+### 📅 Day 11 — Advanced Window Functions
+
+**Concepts**
+- FIRST_VALUE()
+- LAST_VALUE()
+- NTILE()
+
+**Business Applications**
+- Customer segmentation
+- Percentile analysis
+- Revenue distribution
+- Performance benchmarking
+
+---
+
+### 📅 Day 12 — Business Data Analysis
+
+**Real-World Analysis**
+- Customer Insights
+- Revenue Analysis
+- Product Performance
+- Restaurant Performance
+- Ranking & Comparative Analysis
+
+---
+
+### 📅 Day 13 — Query Optimization
+
+**Concepts**
+- Indexes
+- Execution Plans
+- Performance Tuning
+- Efficient SQL Writing
+
+**What I Learned**
+- Optimizing queries for faster execution and better scalability.
+
+---
+
+### 📅 Day 14 — Temporary Tables & Multi-Step Analysis
+
+**Concepts**
+- CREATE TEMP TABLE
+- Temporary Data Storage
+- Intermediate Calculations
+- Multi-Step Analytical Workflows
+
+**Business Problems Solved**
+- Customer Order Analysis
+- Restaurant Revenue Analysis
+- High-Value Customer Identification
+- Popular Product Analysis
+- Large Order (Big Cart) Analysis
+
+---
+
+## 📂 Repository Structure
 
 ```
 14-Days-SQL-Challenge/
-├── dataset/
-│   ├── customers.csv
-│   ├── menu_items.csv
-│   ├── order_details.csv
-│   ├── orders.csv
-│   └── restaurants.csv
-├── Day_1.sql   # Joins & Aggregations
-├── Day_2.sql   # CASE Statements
-├── Day_3.sql   # Subqueries
-├── Day_4.sql   # Window Functions (Part 1)
-├── Day_5.sql   # Window Functions (Part 2)
-├── Day_6.sql   # Views
-├── Day_7.sql   # Temporary Tables
+├── dataset/        # Sample datasets used across the challenge
+├── Day_1.sql        # SQL Joins Deep Dive
+├── Day_2.sql        # Advanced Aggregations
+├── Day_3.sql        # CASE Statements
+├── Day_4.sql        # Subqueries
+├── Day_5.sql        # Common Table Expressions (CTEs)
+├── Day_6.sql        # Set Operations
+├── Day_7.sql        # SQL Views
+├── ...              # Day_8 through Day_14
 └── README.md
 ```
 
 ---
 
-📈 Outcome
+## 💡 Skills Developed
 
-Seven days in, this challenge has already strengthened my ability to write multi-table joins, conditional logic, subqueries, window functions, views, and temporary tables to answer real business questions. This repository showcases that learning journey and will keep growing as the remaining days are completed.
+- SQL
+- PostgreSQL
+- Data Analysis
+- Business Intelligence
+- Database Management
+- Query Optimization
+- Analytical Thinking
+- Problem Solving
+- Data Interpretation
+- Reporting & Insights Generation
+
+---
+
+## 📈 Outcome
+
+By completing this challenge, I significantly improved my ability to write complex SQL queries, optimize database performance, and analyze business data effectively. This repository showcases my consistent learning journey and demonstrates practical SQL skills that can be applied in real-world data analytics projects.
 
 ---
 
