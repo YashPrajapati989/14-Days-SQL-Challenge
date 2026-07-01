@@ -1,0 +1,51 @@
+restaurant_id,restaurant_name,avg_item_price,,,Row Labels,Sum of avg_item_price
+12,Royal Garden,564.9,,,Golden Garden,1053.74
+11,Golden Bistro,523.51,,,Royal Garden,945.88
+19,Golden Diner,504.21,,,Fresh Palace,812.82
+48,Fresh Garden,479.66,,,Little Palace,781.57
+42,Happy Diner,459.65,,,Fresh Hub,727.91
+17,Fresh Palace,428.79,,,Flavors Corner,708.75
+5,Happy Garden,417.33,,,Happy Corner,690.65
+41,Spice Palace,415.26,,,Flavors Kitchen,658.8
+18,Little Palace,395.99,,,Spice Palace,638.49
+26,Fresh Café,386.43,,,Big Table,627.86
+28,Little Palace,385.58,,,Grand Total,7646.47
+27,Big Table,384.72,,,,
+9,Fresh Palace,384.03,,,,
+29,Flavors Corner,383.2,,,,
+8,Royal Garden,380.98,,,,
+1,Fresh Hub,380.2,,,,
+23,Happy Corner,377.69,,,,
+15,Golden Garden,368.25,,,,
+31,Royal Grill,367.44,,,,
+14,Golden Garden,360.79,,,,
+33,Golden Kitchen,359.99,,,,
+30,Flavors Table,350.66,,,,
+22,Fresh Hub,347.71,,,,
+3,Big Corner,343.51,,,,
+6,Tasty Bistro,340.7,,,,
+24,Flavors Kitchen,339.89,,,,
+4,Royal Hub,335.9,,,,
+20,Royal Corner,335.34,,,,
+47,Spice Kitchen,332.06,,,,
+16,Royal Palace,328.99,,,,
+44,Spice Garden,327,,,,
+10,Flavors Corner,325.55,,,,
+45,Golden Garden,324.7,,,,
+36,Flavors Diner,324.42,,,,
+50,Little Corner,320.57,,,,
+38,Flavors Kitchen,318.91,,,,
+49,Happy Kitchen,318.15,,,,
+40,Happy Corner,312.96,,,,
+25,Tasty Palace,305.49,,,,
+2,Big Diner,298.31,,,,
+35,Tasty Diner,281.74,,,,
+21,Tasty Bistro,281.46,,,,
+43,Happy Grill,279.9,,,,
+46,Big Diner,261.22,,,,
+37,Golden Table,243.77,,,,
+7,Big Table,243.14,,,,
+34,Urban Corner,239.13,,,,
+39,Royal Kitchen,233.82,,,,
+13,Flavors Palace,232.21,,,,
+32,Spice Palace,223.23,,,,

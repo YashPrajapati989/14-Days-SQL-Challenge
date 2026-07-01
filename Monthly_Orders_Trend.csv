@@ -1,0 +1,17 @@
+order_month,month,year,total_orders,,,,Sum of total_orders,Column Labels,,,
+01-04-2023,April,2023,56,,,,Row Labels,2023,2024,2025,Grand Total
+01-05-2023,May,2023,61,,,,January,,55,,55
+01-07-2023,July,2023,63,,,,February,,53,,53
+01-08-2023,August,2023,52,,,,March,,,55,55
+01-10-2023,October,2023,53,,,,April,56,,,56
+01-01-2024,January,2024,55,,,,May,61,51,,112
+01-02-2024,February,2024,53,,,,June,,51,,51
+01-05-2024,May,2024,51,,,,July,63,63,,126
+01-06-2024,June,2024,51,,,,August,52,55,,107
+01-07-2024,July,2024,63,,,,September,,57,,57
+01-08-2024,August,2024,55,,,,October,53,52,,105
+01-09-2024,September,2024,57,,,,November,,54,,54
+01-10-2024,October,2024,52,,,,December,,52,,52
+01-11-2024,November,2024,54,,,,Grand Total,285,543,55,883
+01-12-2024,December,2024,52,,,,,,,,
+01-03-2025,March,2025,55,,,,,,,,
